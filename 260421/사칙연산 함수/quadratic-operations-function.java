@@ -14,7 +14,7 @@ public class Main {
     	else if (o == '-')
 			System.out.println(a + " - " + c + " = " + (a - c));
 		else if (o == '/')
-			System.out.println(a + " - " + c + " = " + (a / c));
+			System.out.println(a + " / " + c + " = " + (a / c));
         else{
             System.out.println("False");
         }
