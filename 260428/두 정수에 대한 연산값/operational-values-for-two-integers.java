@@ -1,22 +1,18 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		int r = 0;
-		int r2 = 0;
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-		if (a < b) {
-			r = b + 25;
-			r2 = a * 2;
-		} else {
-			r = a + 25;
-			r2 = b * 2;
-		}
+        int maxVal = Math.max(a, b);
+        int minVal = Math.min(a, b);
 
-		System.out.println(r2 + " " + r);
-	}
+        int r = maxVal + 25;
+        int r2 = minVal * 2;
+
+        System.out.println(r2 + " " + r);
+    }
 }
