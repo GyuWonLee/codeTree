@@ -13,6 +13,6 @@ public class Main {
         int r = maxVal + 25;
         int r2 = minVal * 2;
 
-        System.out.println(r2 + " " + r);
+        System.out.println(r + " " + r2);
     }
 }
